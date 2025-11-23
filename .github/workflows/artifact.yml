@@ -32,5 +32,5 @@ jobs:
     - name: Move hello-artifact
       run: |
         mkdir artifacts
-        mv hello.txt artifacts
+        mv hello.txt ./artifacts
         cat ./artifacts/hello.txt
